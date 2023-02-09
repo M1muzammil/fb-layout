@@ -1,0 +1,121 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: white;
+    color: #0a0a0a;
+    font-size: 2em;
+    position: sticky;
+    top: 0;
+    width: 90%%;
+}
+.blue{
+    color: blue;
+}
+
+
+
+.nav{
+display: flex;
+
+
+color: hsl(0, 0%, 4%);
+height: 3em;
+align-items: center;
+background-color: rgb(255, 0, 251);
+justify-content: space-between;
+}
+.item{
+
+
+    border: 2px solid #060606;
+    margin: 10px;
+    height: 1.3em;
+}
+.ff{
+    display: flex;
+}
+.navlogo{
+display: flex;
+align-items: center;
+
+}
+.nav11{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav111{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content{
+    display: flex;
+    
+
+
+}
+.box{
+    width: 89%;
+align-self: center;
+border: 1px solid black;
+margin-left: 10px;
+margin-right: 10px;
+border-radius: 10px;
+font-size: 2em;
+
+}
+.story{
+    display: flex;
+    justify-content: space-between;
+    width: ;
+    margin: 0;
+    padding: 0;
+   
+}
+
+.post{
+    margin: 0;
+    padding: 0;
+}
+.img2{
+
+}
+@media (max-width:500px){ 
+    .header{ 
+        font-size: 1em;
+    } #story{ display: none;
+
+    }
+    
+}
+@media ( max-width:770px) {
+    #story{
+        display: none;
+    }
+}
+@media (max-width:500px){
+    .box{
+        font-size: 1em;
+    }
+}
+@media (max-width:350px) {
+    
+    #story{
+        display: none;
+    }
+#story1{
+    display: none;
+}
+}
+@media (max-width:400px) {
+#story0{
+    
+    width: 100px;
+    
+
+}    
+}
